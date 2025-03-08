@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force-Directed Graph</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script defer src="chart.js"></script>
+</head>
+<body>
+    <div id="chart-container"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.getElementById("chart-container");
+            container.appendChild(createChart()); // Call the function from chart.js
+        });
+    </script>
+</body>
+</html>
